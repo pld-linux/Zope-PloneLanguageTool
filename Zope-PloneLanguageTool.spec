@@ -1,14 +1,14 @@
 %include	/usr/lib/rpm/macros.python
 %define		zope_subname	PloneLanguageTool
 Summary:	Multilanguage content tool
-Summary(pl):	Narzêdzie dla wielojêzykowych dokumentów
+Summary(pl):	Narzêdzie dla wielojêzycznych dokumentów
 Name:		Zope-%{zope_subname}
-Version:	0.3.1
+Version:	0.4
 Release:	1
 License:	GPL v2+
 Group:		Development/Tools
 Source0:	http://dl.sourceforge.net/collective/%{zope_subname}-%{version}.tar.gz
-# Source0-md5:	35384a1383d9b611cbfd3c7b759c03a7
+# Source0-md5:	68505b6ec1ccad90c3992b51df9e231b
 URL:		http://plone.org/Members/longsleep/I18NLayer/
 %pyrequires_eq	python-modules
 Requires:	Zope
@@ -22,7 +22,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 PloneLanguageTool is a multilanguage content tool.
 
 %description -l pl
-PloneLanguageTool dostarcza narzêdzia dla wielojêzykowych dokumentów.
+PloneLanguageTool dostarcza narzêdzia dla wielojêzycznych dokumentów.
 
 %prep
 %setup -q -n %{zope_subname}
