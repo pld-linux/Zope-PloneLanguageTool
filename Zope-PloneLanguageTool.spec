@@ -2,12 +2,12 @@
 Summary:	Multilanguage content tool
 Summary(pl):	Narzêdzie dla wielojêzycznych dokumentów
 Name:		Zope-%{zope_subname}
-Version:	0.4
+Version:	0.5
 Release:	1
 License:	GPL v2+
 Group:		Development/Tools
 Source0:	http://dl.sourceforge.net/collective/%{zope_subname}-%{version}.tar.gz
-# Source0-md5:	68505b6ec1ccad90c3992b51df9e231b
+# Source0-md5:	bdd5fd8e3383b6c9cca84db9e7831771
 URL:		http://plone.org/Members/longsleep/I18NLayer/
 %pyrequires_eq	python-modules
 Requires:	Zope
@@ -57,5 +57,5 @@ fi
 
 %files
 %defattr(644,root,root,755)
-%doc ChangeLog CREDITS.txt
+%doc ChangeLog README.txt
 %{_datadir}/%{name}
