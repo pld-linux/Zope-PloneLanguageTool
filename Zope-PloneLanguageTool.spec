@@ -3,7 +3,7 @@ Summary:	Multilanguage content tool
 Summary(pl):	Narzêdzie dla wielojêzycznych dokumentów
 Name:		Zope-%{zope_subname}
 Version:	0.5
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		Development/Tools
 Source0:	http://dl.sourceforge.net/collective/%{zope_subname}-%{version}.tar.gz
