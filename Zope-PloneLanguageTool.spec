@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.python
 %define		zope_subname	PloneLanguageTool
 Summary:	Multilanguage content tool
 Summary(pl):	Narzêdzie dla wielojêzycznych dokumentów
