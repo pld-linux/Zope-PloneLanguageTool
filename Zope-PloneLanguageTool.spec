@@ -2,12 +2,12 @@
 Summary:	Multilanguage content tool
 Summary(pl):	Narzêdzie dla wielojêzycznych dokumentów
 Name:		Zope-%{zope_subname}
-Version:	0.7
+Version:	0.8
 Release:	1
 License:	GPL v2+
 Group:		Development/Tools
 Source0:	http://plone.org/products/plonelanguagetool/releases/%{version}/PloneLanguageTool-%{version}.tar.gz
-# Source0-md5:	9963cfbde683aa1f1be24737acd286c4
+# Source0-md5:	4936b8e4c314aadcc8171ee1f48ca475
 URL:		http://plone.org/Members/longsleep/I18NLayer/
 BuildRequires:	python
 %pyrequires_eq	python-modules
