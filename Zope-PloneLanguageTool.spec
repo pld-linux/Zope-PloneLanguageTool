@@ -1,6 +1,6 @@
 %define		zope_subname	PloneLanguageTool
 Summary:	Multilanguage content tool
-Summary(pl):	Narzêdzie dla wielojêzycznych dokumentów
+Summary(pl.UTF-8):   NarzÄ™dzie dla wielojÄ™zycznych dokumentÃ³w
 Name:		Zope-%{zope_subname}
 Version:	0.9
 Release:	1
@@ -22,8 +22,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 PloneLanguageTool is a multilanguage content tool.
 
-%description -l pl
-PloneLanguageTool dostarcza narzêdzia dla wielojêzycznych dokumentów.
+%description -l pl.UTF-8
+PloneLanguageTool dostarcza narzÄ™dzia dla wielojÄ™zycznych dokumentÃ³w.
 
 %prep
 %setup -q -n %{zope_subname}
