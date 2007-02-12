@@ -1,6 +1,6 @@
 %define		zope_subname	PloneLanguageTool
 Summary:	Multilanguage content tool
-Summary(pl.UTF-8):   Narzędzie dla wielojęzycznych dokumentów
+Summary(pl.UTF-8):	Narzędzie dla wielojęzycznych dokumentów
 Name:		Zope-%{zope_subname}
 Version:	0.9
 Release:	1
